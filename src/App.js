@@ -29,7 +29,9 @@ class App extends Component {
     )
     return (
       <div className="App">
-        <h1>Monster Rolodex</h1>
+        <h1>
+          Monster Rolodex v2
+        </h1>
         <SearchBox
           placeholder="search monsters"
           handelChange={this.handelChange}
